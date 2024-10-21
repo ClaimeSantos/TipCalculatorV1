@@ -90,10 +90,68 @@ h2 {
     margin-left: 20px;
 }
 
-@media screen  and (max-width: 768px){
-    .Card{
-        width: 100%;
+@media screen and (max-width: 500px) {
+    .Card {
+      margin-top: 30px;
+        height: 75%;
+        width: 75%;
         flex-direction: column;
+       
+
+
     }
+
+    .img {
+        width: 45px;
+
+    }
+    .text {
+        display: contents;
+        margin-right: -50px;
+        
+    }
+    .divide{
+        display: flex;
+    }
+
+    .number {
+        align-items: start;
+        width: 50px;
+        margin: 15px; 
+        margin-right: -1px;  
+        margin-left: 70px;    
+    }
+
     
+
+    .Cash {
+        margin: 0px;
+    }
+
+    .TipValue {
+        margin: 0px;
+        align-items: center;
+    }
+
+    h2 {
+        margin-right: 70px;
+        margin-left: 70px ;
+    }
+
+    .input {
+        margin-left: 20px;
+        size: 25px;
+        margin-right: 50px;
+        display: inline;
+    }
+        .btn{
+            margin-right: 50px;
+        }
+
+.tip2{
+    margin-left: -45px;
+
+}
+    
+           
 }
