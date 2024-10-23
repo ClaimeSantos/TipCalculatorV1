@@ -89,13 +89,13 @@ function TipCalculator() {
           </button>
         </div>
         <p className="TipValue">
-          Gorjeta: <p className="Cash">{tipAmount.toFixed(2)}</p>
+          Tip(USD): <p className="Cash">{tipAmount.toFixed(2)}</p>
         </p>
         <p className="TipValue">
-          Valor Total (USD): <p className="Cash">${totalAmount.toFixed(2)}</p>
+          Total amount (USD): <p className="Cash">${totalAmount.toFixed(2)}</p>
         </p>
         <p className="TipValue">
-          Valor por Pessoa (USD): <p className="Cash">${amountPerPerson.toFixed(2)}</p>
+          Amount per person (USD): <p className="Cash">${amountPerPerson.toFixed(2)}</p>
         </p>
         {conversionRate > 0 && (
           <>
