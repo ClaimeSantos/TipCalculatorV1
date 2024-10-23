@@ -157,11 +157,14 @@ h2 {
         }
 
 .tip2{
-    margin-left: -47px;
+    margin-left: -51px;
 margin-right: 50px;
 }
 
 .btn{
 margin-left: 50px;
-}      
+}   
+.divide{
+    margin-left: 11px;
+}   
 }
