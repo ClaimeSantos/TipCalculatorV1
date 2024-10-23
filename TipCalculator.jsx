@@ -100,7 +100,7 @@ function TipCalculator() {
         {conversionRate > 0 && (
           <>
             <p className="TipValue">
-              Valor Total (BRL): <p className="Cash">R$ {(amountPerPerson * conversionRate).toFixed(2)}</p>
+              Valor Total (BRL): <p className="Cash">R$ {(totalAmount * conversionRate).toFixed(2)}</p>
             </p>
             <p className="TipValue">
               Valor por Pessoa (BRL): <p className="Cash">R$ {(amountPerPerson * conversionRate).toFixed(2)}</p>
