@@ -10,7 +10,7 @@ function TipCalculator() {
   const [amountPerPerson, setAmountPerPerson] = useState(0);
   const [conversionRate, setConversionRate] = useState(0); 
 
-  const apiKey = '8e54d70809bd084570fd9415b429de97badd6549f1d87da3e53df11b2552f757'; // Replace with your actual API key
+  const apiKey = '8e54d70809bd084570fd9415b429de97badd6549f1d87da3e53df11b2552f757'; 
 
   const fetchConversionRate = async () => {
     try {
