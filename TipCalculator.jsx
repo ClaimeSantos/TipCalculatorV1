@@ -105,6 +105,9 @@ function TipCalculator() {
             <p className="TipValue">
               Valor por Pessoa (BRL): <p className="Cash">R$ {(amountPerPerson * conversionRate).toFixed(2)}</p>
             </p>
+            <p className="TipValue">
+          Gorjeta (BRL): <p className="Cash">{(tipAmount*conversionRate).toFixed(2)}</p>
+        </p>
           </>
         )}
       </div>
