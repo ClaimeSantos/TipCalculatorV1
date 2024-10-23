@@ -15,14 +15,14 @@ h2 {
 }
 
 .TipValue {
-    margin-left: 55px;
+    margin-left: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 
 }
 
 .Cash {
-
+     
     -webkit-text-stroke-width: 0.4px;
     -webkit-text-stroke-color: black;
     color: darkgreen;
@@ -43,7 +43,7 @@ h2 {
 }
 
 .btn {
-    margin-left: 55px;
+    margin-left: 25px;
     margin-top: 15px;
     align-items: center;
     border-radius: 7px;
@@ -160,6 +160,8 @@ h2 {
     margin-left: -47px;
 margin-right: 50px;
 }
-    
-           
+
+.btn{
+margin-left: 50px;
+}      
 }
